@@ -31,6 +31,6 @@ We apply Hough Transform to identify two straight lines — which will be our le
 The lane is visualized as two light green, linearly fitted polynomials which will be overlayed on our input frame.
 
 ## Disadvantages of the approach
-> Approach breaks when urved lanes appear.
-> Lanes with dotted markings or with no clear markings at all are also ignored by the lane detector since there are no continuous straight lines that satisfy the Hough transform threshold. 
-> Weather and lighting conditions affecting the visibility of the lines will be an issue
+- Approach breaks when urved lanes appear.
+- Lanes with dotted markings or with no clear markings at all are also ignored by the lane detector since there are no continuous straight lines that satisfy the Hough transform threshold. 
+- Weather and lighting conditions affecting the visibility of the lines will be an issue
